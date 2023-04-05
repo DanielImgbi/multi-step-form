@@ -1,0 +1,48 @@
+
+.side-nav{
+    height: 95%;
+    width: 300px;
+    background-image: url('src/assets/assets/images/bg-sidebar-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    padding: 18px 0 0 0;
+  }
+  
+  .side-nav ul{
+    height: 55%;
+    width: 100%;
+    /* background: #4c4949; */
+  }
+  
+  .side-nav ul li{
+    height: 20%;
+    width: 90%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* background-color: black; */
+    margin: 10px 0;
+    color: white;
+  }
+  
+  .side-nav ul li .step{
+    height: 50%;
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 2px solid dodgerblue;
+    margin: 0 19px 0 0 ;
+  }
+  
+  .side-nav ul li div{
+    height: 100%;
+  }
+  
+  .side-nav ul li div h4{
+    margin: 0;
+  }

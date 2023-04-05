@@ -1,0 +1,85 @@
+.step-two{
+    height: 80%;
+    width: 87%;
+    margin: 0 0 0 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.heading h1{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.heading p{
+    color: grey;
+    font-size: 16px;
+}
+
+.subscription-types{
+    height: 200px;
+    width: 100%;
+    margin: 20px 0;
+    /* background: yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    height: 75%;
+    width: 25%;
+    background: white;
+    margin: 2px 0;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 1px 1px 2px rgba(38, 37, 37, .5);
+    border: .3px solid white;
+
+}
+.card:hover{
+    border: .3px solid purple;
+    background: linear-gradient(to bottom, rgba(165, 133, 165, 0.5), rgba(214, 178, 214, 0.5)), white;
+    box-shadow: 1px 1px 1px 1px 1px rgba(38, 37, 37, .5);
+    
+}
+.card-footer{
+    height: 70%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* padding:20px 0; */
+    margin: 0 0 40px 0;
+}
+
+.name{
+    font-weight: 700;
+    color: rgb(41, 41, 168);
+
+}
+.price{
+    color: grey;
+}
+
+.duration{
+    height: 50px;
+    width: 100%;
+    background: rgb(235, 222, 222);
+    /* margin: 0px 0 0 0; */
+    color: rgb(24, 24, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+
+}
+ .monthly, .yearly{
+    margin: 0 10px;
+    color:rgb(41, 41, 168) ;
+    font-weight: 500;
+ }
